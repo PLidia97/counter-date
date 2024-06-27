@@ -32,10 +32,19 @@ body {
   height: 300px;
 }
 
-.counter button {
+.counter .countButton {
   border-radius: 50%;
   width: 25px;
   height: 25px;
+  background-color: black;
+  color: #fff;
+}
+
+.resetButton {
+  border: none;
+  width: 50px;
+  height: 35px;
+  border-radius: 10px;
   background-color: black;
   color: #fff;
 }
